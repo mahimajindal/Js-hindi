@@ -23,9 +23,31 @@ console.log(typeof booleanIsLoggedIn)*/
 //"mahi"=> true
 
 //----------------------------converting  to String--------------------------//
-let someNumber = 44
+/*let someNumber = 44
 let stringNumber = String(someNumber)
-console.log(stringNumber)
-
+console.log(stringNumber)*/
 
 //44 => 44
+
+//-----------------------------OPERATIONS-----------------------------------//
+console.log(2+2)
+console.log(2-2)
+console.log(2/2)
+console.log(2%2)
+console.log(2**5)// power
+//------etc...
+
+console.log("1"+ 2) //12
+console.log(1 + "2") //12
+console.log("1" + 2 + 2) //o/p is 122
+console.log(1 + 2 + "2") //o/p is 32
+//console.log(3+4*5%4)
+
+console.log(+true)//not gud to write like this code
+console.log(+"")//not gud
+
+let gamecounter=100
+gamecounter++; //++gamecounter; both gives same //do read prefix postfix from js mdn
+console.log(gamecounter)
+
+
