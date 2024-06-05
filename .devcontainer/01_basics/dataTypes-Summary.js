@@ -38,8 +38,20 @@ console.log(typeof myFunc)   //function(In output it says function but in docume
 
 //In javascript every non-primitive datatype gives its returnType as an "Object" always except function which gives "function-object".
 
+//============================MEMORY===========================//
 
+//Stack(Primitive) , Heap(Non-Primitive)
 
+let userOne= {
+    email:"mahirj@gail.com",
+    upi: "user@ybl"
+}
+
+let userTwo= userOne
+userTwo.email = "rke@gail.com" //changing value of userTwo will change value of userOne also bcz we get reference here in heap.
+
+console.log(userOne.email);
+console.log(userTwo.email);
 
 
 
